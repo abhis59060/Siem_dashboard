@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { Menu, Bell, User } from "lucide-react"; 
 import { useState } from "react";
 import { Button } from "../ui/button";
 import {
@@ -23,7 +23,7 @@ export default function TopBar({ toggleSidebar }) {
             <Button
               variant="outline"
               size="icon"
-              className="text-white bg-gray-700 border-gray-600 hover:bg-gray-600" // Added more consistent dark mode styling
+              className="text-white bg-gray-700 border-gray-600 hover:bg-gray-600"
               onClick={toggleSidebar}
             >
               <Menu size={24} />
@@ -49,11 +49,10 @@ export default function TopBar({ toggleSidebar }) {
         </DropdownMenu>
 
         {/* Logo Image */}
-        {/* Since your logo is in the `public` folder, you can reference it directly with `/logo.png` */}
         <img 
           src="/logo.png" 
           alt="SIEM Logo" 
-          className="h-8 w-auto" // Set height to h-8 (32px) and auto-adjust width
+          className="h-8 w-auto" 
         />
       </div>
       
@@ -63,11 +62,41 @@ export default function TopBar({ toggleSidebar }) {
         placeholder="Search..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        className="bg-gray-700 p-2 rounded w-1/3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" // Added better styling for focus and placeholder
+        className="bg-gray-700 p-2 rounded w-1/3 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500" 
       />
 
-      {/* Profile/Notifications */}
-      <div className="text-white">Profile / Notifications</div>
+      {/* Notifications and Profile Icons with Enhanced Animations */}
+      <div className="flex items-center space-x-2">
+        
+        {/* 1. Notifications Icon (Bell) - Ringing Shake Animation */}
+        <Button 
+          variant="ghost" 
+          size="icon"
+          className="relative text-gray-300 hover:text-white hover:bg-gray-700 
+                     transition-colors duration-300 ease-in-out 
+                     transform hover:rotate-6 hover:scale-105" // ⬅️ UPDATED: Quick rotate and scale on hover
+        >
+          <Bell 
+            size={20} 
+            // ⬅️ NEW: Use 'animate-bounce' but on a shorter cycle for a 'ring' look
+            className="group-hover:animate-bounce hover:rotate-6 transition-transform"
+          />
+          {/* Optional: Notification Badge */}
+          <span className="absolute top-2 right-2 h-2 w-2 rounded-full bg-red-500" />
+        </Button>
+        
+        {/* 2. Profile Icon (User) - Quick Rotate and Scale */}
+        <Button 
+          variant="ghost" 
+          size="icon" 
+          className="text-gray-300 hover:text-white hover:bg-gray-700 
+                     transition-all duration-300 ease-in-out 
+                     transform hover:scale-110 hover:-rotate-6" // ⬅️ UPDATED: Scale up and slight reverse rotation
+        >
+          <User size={20} />
+        </Button>
+      </div>
+      
     </header>
   );
 }
