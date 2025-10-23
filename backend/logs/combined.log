@@ -1,0 +1,111 @@
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"Generated 25 sample alerts"}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"MongoDB connection opened successfully"}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"Login attempt for: admin@company.com"}
+{"level":"warn","message":"Wrong password for: admin@company.com"}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"Login attempt for: admin@company.com"}
+{"level":"warn","message":"Wrong password for: admin@company.com"}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
+{"level":"info","message":"SIGINT received, closing MongoDB connection..."}
+{"level":"info","message":"Environment variables loaded from .env file"}
+{"level":"info","message":"All required environment variables are present"}
+{"level":"info","message":"Environment initialized: development mode"}
+{"level":"info","message":"Server will run on port: 3001"}
+{"level":"info","message":"Real-time service initialized"}
+{"level":"info","message":"Connecting to MongoDB..."}
+{"level":"info","message":"✅ MongoDB connected"}
+{"level":"info","message":"Generated 20 sample alerts"}
+{"level":"info","message":"✅ Sample data generated"}
+{"level":"info","message":"🚀 Server running on port 3001"}
+{"level":"info","message":"📊 Environment: development"}
+{"level":"info","message":"🔗 API Prefix: /api"}
